@@ -1,0 +1,45 @@
+[
+  {
+    "id": "5725842018029466625",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "13.107.64.0/18",
+      "52.112.0.0/14",
+      "52.122.0.0/15",
+      "52.238.119.141/32",
+      "52.244.160.207/32",
+      "2603:1027::/48",
+      "2603:1037::/48",
+      "2603:1047::/48",
+      "2603:1057::/48",
+      "2603:1063::/39",
+      "2620:1ec:6::/48",
+      "2620:1ec:40::/42"
+    ],
+    "domain": [
+      "*.lync.com",
+      "*.teams.microsoft.com",
+      "teams.microsoft.com",
+      "*.broadcast.skype.com",
+      "broadcast.skype.com"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "5449885013010970935",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": ["geoip:private", "geoip:ir"],
+    "domain": ["geosite:private", "geosite :category-ir", "domain:ir"],
+    "enabled": true
+  },
+  {
+    "id": "5602448156122587073",
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [],
+    "enabled": true
+  }
+]
